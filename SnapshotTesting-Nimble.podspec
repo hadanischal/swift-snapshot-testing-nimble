@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
         :tag => "0.1.0"
     }
 
-    s.dependency "SnapshotTesting", "1.0.0"
+    s.dependency "SnapshotTesting"
+    # , "1.0.0"
     s.dependency "Nimble"
 
-    s.swift_version = "4.2"
+    s.swift_version = "5.0"
 
-    s.ios.deployment_target = "10.0"
-    s.osx.deployment_target = "10.10"
-    s.tvos.deployment_target = "10.0"
+    s.ios.deployment_target = "12.0"
+    s.osx.deployment_target = "12.10"
+    s.tvos.deployment_target = "12.0"
 
     s.frameworks = "XCTest"
 
